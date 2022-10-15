@@ -1,0 +1,7 @@
+Mercimek_Çorbası 150 19.90 
+Tavuk_Döner 100 24.50 
+ara 25 25.00 
+corba 35 33.00 
+et_Döner 100 49.50 
+Köfte 200 59.90 
+son 50 75.00
