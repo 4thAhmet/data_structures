@@ -1,0 +1,15 @@
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\bin\Debug\net6.0\Data_Structers_Odev_2.exe
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\bin\Debug\net6.0\Data_Structers_Odev_2.deps.json
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\bin\Debug\net6.0\Data_Structers_Odev_2.runtimeconfig.json
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\bin\Debug\net6.0\Data_Structers_Odev_2.dll
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\bin\Debug\net6.0\Data_Structers_Odev_2.pdb
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.csproj.AssemblyReference.cache
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.AssemblyInfoInputs.cache
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.AssemblyInfo.cs
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.csproj.CoreCompileInputs.cache
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.dll
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\refint\Data_Structers_Odev_2.dll
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.pdb
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\Data_Structers_Odev_2.genruntimeconfig.cache
+C:\Users\AHMET\Desktop\Data_Structers_Odev_2\Data_Structers_Odev_2\obj\Debug\net6.0\ref\Data_Structers_Odev_2.dll
