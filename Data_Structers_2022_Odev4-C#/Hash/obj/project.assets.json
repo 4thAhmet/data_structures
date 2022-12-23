@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AHMET\\Desktop\\Hash\\Hash.csproj",
+      "projectUniqueName": "C:\\Users\\AHMET\\Documents\\GitHub\\data_structures\\Data_Structers_2022_Odev4-C#\\Hash\\Hash.csproj",
       "projectName": "Hash",
-      "projectPath": "C:\\Users\\AHMET\\Desktop\\Hash\\Hash.csproj",
+      "projectPath": "C:\\Users\\AHMET\\Documents\\GitHub\\data_structures\\Data_Structers_2022_Odev4-C#\\Hash\\Hash.csproj",
       "packagesPath": "C:\\Users\\AHMET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AHMET\\Desktop\\Hash\\obj\\",
+      "outputPath": "C:\\Users\\AHMET\\Documents\\GitHub\\data_structures\\Data_Structers_2022_Odev4-C#\\Hash\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

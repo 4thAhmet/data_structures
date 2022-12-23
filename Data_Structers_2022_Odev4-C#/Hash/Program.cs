@@ -18,6 +18,7 @@
         }
         static void print()
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Hash Tablosu: ");
             for (int i = 0; i < satir; i++)
             {
@@ -27,6 +28,7 @@
                 }
                 Console.WriteLine("");
             }
+            Console.ResetColor();
         }
         static void txt()
         {
@@ -41,8 +43,26 @@
             }
             sr.Close(); fs.Close();
         }
+        static bool tablodolumu()
+        {
+            for(int i=0; i<satir;i++)
+            {
+                if (hash[i,0] == "-1")
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         static void ekle(int no,string ad,string soyad)
         {
+            if(!tablodolumu())
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Hash Tablosu Dolu!");
+                Console.ResetColor();
+                return;
+            }
             int hesap = (3 * no + 2) % satir;
             if (hash[hesap,0] == "-1")
             {
@@ -104,7 +124,6 @@
                 if (hash[i,0] !="-1")
                 {
                     sayac++;
-                    Console.WriteLine("Ort:" + arama(Convert.ToInt32(hash[i, 0])));
                     toplam += arama(Convert.ToInt32(hash[i, 0]));
                 }
             }
@@ -118,9 +137,10 @@
             string ad, soyad;
             while(true)
             {
+                Console.ResetColor();
                 Console.Write("1:Ekle\n2:Arama\n3:Listele\n4:Ortalama Adım Sayısı\n5:Çıkış\nSeçim Yapınız: ");
-                sec = Convert.ToInt16(Console.ReadLine());
-                switch(sec)
+                sec = Convert.ToInt16(Console.ReadLine());                
+                switch (sec)
                 {
                     case 1:
                         Console.Write("Numara Giriniz: ");
@@ -135,20 +155,27 @@
                         Console.Write("Aranacak Numara Giriniz: ");
                         no = Convert.ToInt32(Console.ReadLine());
                         ara = arama(no);
+                        Console.ForegroundColor = ConsoleColor.Red;
                         if (ara == -1) Console.WriteLine("Aranan Numara Bulunamadı.");
-                        else Console.WriteLine("Veri {0} adımda bulundu", ara);
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine("Veri {0} adımda bulundu", ara);
+                        }
                         break;
                     case 3:
                         print();
                         break;
                     case 4:
+                        Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("Ortalama Adım Sayısı: " + ortalama().ToString("0.00"));
                         break;
                     case 5:
                         Environment.Exit(0);
                         break;
                     default:
-                        Console.WriteLine("Hatalı Giriş.");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Hatalı Giriş.");                       
                         break;
                 }
             }
