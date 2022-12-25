@@ -1,0 +1,15 @@
+C:\Users\AHMET\Desktop\HashOdev\bin\Debug\net6.0\HashOdev.exe
+C:\Users\AHMET\Desktop\HashOdev\bin\Debug\net6.0\HashOdev.deps.json
+C:\Users\AHMET\Desktop\HashOdev\bin\Debug\net6.0\HashOdev.runtimeconfig.json
+C:\Users\AHMET\Desktop\HashOdev\bin\Debug\net6.0\HashOdev.dll
+C:\Users\AHMET\Desktop\HashOdev\bin\Debug\net6.0\HashOdev.pdb
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.csproj.AssemblyReference.cache
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.AssemblyInfoInputs.cache
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.AssemblyInfo.cs
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.csproj.CoreCompileInputs.cache
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.dll
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\refint\HashOdev.dll
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.pdb
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\HashOdev.genruntimeconfig.cache
+C:\Users\AHMET\Desktop\HashOdev\obj\Debug\net6.0\ref\HashOdev.dll
