@@ -58,6 +58,7 @@
         }
         static void ekle(int no, string ad, string soyad)
         {
+            int dene = 0;
             if (!tablodolumu())
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -72,11 +73,38 @@
                 veri_liste[hesap].musteri_no = no;
                 veri_liste[hesap].ad = ad;
                 veri_liste[hesap].soyad = soyad;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\tEkleme Başarılı");
+                Console.ResetColor();
             }
             else
             {
                 int yenihesap = (7 * no + 2) % satir;
-                for (int i = 1; i < satir; i++)
+                while(true)
+                {
+                    int x = (hesap + dene * yenihesap) % satir;
+                    if (yenihesap == 0) yenihesap++;
+                    if (hash_tablo[x] == -1)
+                    {
+                        hash_tablo[x] = no;
+                        veri_liste[x].musteri_no = no;
+                        veri_liste[x].ad = ad;
+                        veri_liste[x].soyad = soyad;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("\tEkleme Başarılı");
+                        Console.ResetColor();
+                        break;
+                    }
+                    dene++;
+                    if(dene > satir)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\tHatalı değer");
+                        Console.ResetColor();
+                        break;
+                    }
+                }
+                /*for (int i = 1; i < satir; i++)
                 {
                     int x = (hesap + i * yenihesap) % satir;
                     if (yenihesap == 0) yenihesap++;
@@ -88,7 +116,7 @@
                         veri_liste[x].soyad = soyad;
                         break;
                     }
-                }
+                }*/
             }
         }
         static int arama(int no)
